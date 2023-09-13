@@ -16,7 +16,8 @@ public class PinKod {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         feladat1();
+         //feladat1();
+         feladat2();
      
       
     }
@@ -67,5 +68,23 @@ public class PinKod {
      int pinkod=elenorzottpin();
           System.out.println(pinkodoszehasonlitas(pinkod));
     }
+
+    private static void feladat2() {
+        raninttomb();
+        pinkevero();
+    
+    }
+
+    private static void pinkevero() {
+        Elem[] tomb = new Elem[10];
+        
+           
+    }
+
+    private static void raninttomb() {
+      int[] tomb= new int[10];
+    }
+   
+    
     
 }
